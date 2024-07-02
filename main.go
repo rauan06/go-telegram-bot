@@ -28,6 +28,6 @@ func mustToken() (string, error) {
 	flag.Parse()
 
 	if *token == "" {
-		log.Fatal("Token is not specified")
+		log.Fatal("token is not specified")
 	}
 }
